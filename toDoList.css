@@ -1,0 +1,78 @@
+*{
+    box-sizing: content-box;
+}
+.container{
+    margin: 20px auto;
+    width: 700px;
+}
+.input-sec{
+    background-color: #ddd;
+    width: 100%;
+    height: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+}
+.input-sec input{
+    width: 70%;
+    padding: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    color: rgb(0, 0, 117);
+}
+.input-sec .add{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.tasks{
+    background-color: #ddd;
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+}
+.tasks .task{
+    background-color: #fff;
+    color: rgb(0, 0, 117);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.tasks .task:last-child{
+    margin-bottom:0;
+}
+.tasks .task span{
+    display: inline-block;
+    width: 90%;
+    word-wrap: break-word;
+    height: 100%;
+}
+.tasks .task .delete{
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 4px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+.done{
+    text-decoration: line-through;
+}
